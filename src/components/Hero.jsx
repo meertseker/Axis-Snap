@@ -1,4 +1,4 @@
-import { curve, heroBackground,robot} from "../assets";
+import { curve, heroBackground, robot } from "../assets";
 import Button from "./Button";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
@@ -23,9 +23,8 @@ const Hero = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-          Transforming Real Estate with Advanced 360° Virtual Viewings
+            Transforming Real Estate with Advanced 360° Virtual Viewings
             <span className="inline-block relative">
-              
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"
@@ -36,13 +35,10 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-          Experience Immersive 360° Virtual Tours: Explore properties with unparalleled detail and convenience.
+            Experience Immersive 360° Virtual Tours: Explore properties with
+            unparalleled detail and convenience.
           </p>
-          <Button 
-            href="#virtual-tour" 
-            white 
-            rel="noopener noreferrer"
-          >
+          <Button href="#virtual-tour" white rel="noopener noreferrer">
             Step Inside
           </Button>
         </div>
@@ -55,7 +51,6 @@ const Hero = () => {
                 <img
                   src={robot}
                   className="absolute top-0 left-0 w-full h-full object-cover rounded-[1rem]"
-                  
                   width={1024}
                   height={490}
                   alt="AI"
@@ -63,15 +58,15 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="absolute -top-[143%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
+          <div className="md:-mt-10 absolute -top-[143%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
             <img
               src={heroBackground}
-              className="w-full h-full object-cover"
+              className="md:-mt-40 w-full h-full object-cover"
               width={1920}
               height={1080}
               alt="hero"
             />
-          </div>  
+          </div>
 
           <BackgroundCircles />
         </div>

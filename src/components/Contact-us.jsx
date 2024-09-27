@@ -80,6 +80,10 @@ const Contact = () => {
           <Button type="submit" className="w-full">
             Send Message
           </Button>
+          <p className="mt-10 body-1 max-w-3xl mx-auto mb-8 text-n-2"></p>
+          <Button href="/work-with-us" className="w-full">
+            Wanna Work With Us?
+          </Button>
         </form>
 
         <div className="flex justify-center mt-10">

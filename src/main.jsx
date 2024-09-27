@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // En
 import App from "./App.jsx"; // Main App component
 import Policies from "./components/Policies"; // Import Policies component
 import "./index.css"; // Import your styles
+import WorkWithUs from "./components/WorkWithUs.jsx";
 
 // Render the app with routing
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -13,6 +14,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<App />} /> {/* Main page */}
         <Route path="/policies" element={<Policies />} /> {/* Policies page */}
+        <Route path="/work-with-us" element={<WorkWithUs />} />
       </Routes>
     </Router>
   </React.StrictMode>
