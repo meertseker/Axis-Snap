@@ -40,35 +40,24 @@ export const navigation = [
   {
     id: "0",
     title: "Features",
-    url: "#features",
+    url: "/../#features",
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "Discover",
+    url: "/../#demo-tour",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "Pricing",
+    url: "/../#pricing",
   },
   {
     id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
+    title: "Start the Tour",
+    url: "/../#virtual-tour",
   },
-  {
-    id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
-  },
-  {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
-  },
+
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
@@ -128,21 +117,21 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Easily showcase your 3D house tours directly on Zoopla or anywhere you want.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Seamless Integration With Zoopla",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "AI-Powered Optimization",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Proven Technology",
   },
 ];
 
@@ -208,35 +197,36 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
+    title: "Basic Tour",
+    description: "Suitable for: Small spaces (up to 50 square meters)",
+    price: "50",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "1-2 basic 360° images",
+      "Basic editing and stitching",
+      "Delivery within 1-2 business days",
     ],
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    title: "Standard Tour",
+    description: "Suitable for: Medium-sized spaces (51-100 square meters)",
+    price: "100",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "5-9 high-quality 360° images",
+      "Advanced editing and stitching",
+      "Floor plan integration",
+      "Delivery within 1-2 business days",
     ],
   },
   {
     id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
+    title: "Premium Tour",
+    description: "Suitable for: Large spaces (100+ square meters)",
+    price: "150",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "10+ premium 360° images",
+      "Expert editing and stitching",
+      "Floor plan integration",
     ],
   },
 ];
@@ -244,51 +234,51 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "assets/benefits/card-1.svg",
-    iconUrl: benefitIcon1,
+    title: "Transforming Real Estate Listings with 360° Virtual Tours",
+    text: "Explore how 360° virtual tours enhance property listings, improving buyer engagement and modernizing real estate marketing.",
+    backgroundUrl: "./src/assets/benefits/card-2.svg",
+    iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "assets/benefits/card-2.svg",
+    title: "360° Virtual Tours: The Future of Real Estate Marketing",
+    text: "Learn how virtual tours are revolutionizing real estate marketing by offering immersive, accessible, and engaging property views.",
+    backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
-    backgroundUrl: "assets/benefits/card-3.svg",
+    title: "360° Virtual Tours: A Practical Guide for Real Estate Agents",
+    text: "A step-by-step guide for agents to integrate 360° virtual tours into their marketing strategy and increase property exposure.",
+    backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "assets/benefits/card-4.svg",
-    iconUrl: benefitIcon4,
+    title: "Boosting Property Sales with Immersive 360° Experiences",
+    text: "Discover how immersive virtual tours can enhance buyer experiences, leading to faster property sales and higher engagement.",
+    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
     light: true,
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
+    title: "Faster Sales with 360° Virtual Tours in Real Estate",
+    text: "Understand how 360° virtual tours accelerate property sales by capturing buyers’ attention and speeding up decision-making.",
+    backgroundUrl: "./src/assets/benefits/card-2.svg",
+    iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "assets/benefits/card-6.svg",
+    title: "Enhancing Buyer Decisions with 360° Virtual Tours",
+    text: "Explore how 360° virtual tours provide buyers with confidence, helping them make informed and quicker property decisions.",
+    backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
   },

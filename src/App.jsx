@@ -1,18 +1,41 @@
 import ButtonGradient from "./assets/svg/ButtonGradient";
-import Button from "./components/Button";
-import Header from "./components/header";
+import Benefits from "./components/Benefits";
+import Collaboration from "./components/Collaboration";
+import Contact from "./components/contact-us";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Pricing from "./components/Pricing";
+import Roadmap from "./components/Roadmap";
+import Services from "./components/Services";
+import Policies from "./components/Policies";
+
 const App = () => {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">h</h1>
-      <div className="pt-[4,75] lg:pt[5.25rem] overflow-hidden">
+      <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
+        
+        
         <Header />
         <Hero />
+        <Benefits />
+        <Collaboration />
+        <Pricing />
+        <Roadmap/>
+        <Contact/>
+        <Footer />
+
+        
       </div>
+     
+
       <ButtonGradient />
+      
     </>
+
   );
+
 };
+
 
 export default App;
